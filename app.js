@@ -17,6 +17,8 @@ conexion.connect(function(error){
         console.log("Conexión exitosa");
     }
 });
+
+//nos lanza un texto si el servidor esta bien
 app.listen('3000',function(){
     console.log('servidor OK');
 })
